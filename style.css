@@ -89,7 +89,7 @@ header {
     position: relative;
     
     /* Fundo: Foto 1.jpg com Overlay Azul Escuro */
-    background: linear-gradient(rgba(10, 38, 71, 0.85), rgba(10, 38, 71, 0.75)), url('images/1.jpg');
+    background: linear-gradient(rgba(10, 38, 71, 0.85), rgba(10, 38, 71, 0.75)), url('1.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
