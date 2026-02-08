@@ -1,7 +1,7 @@
 :root {
     /* --- PALETA DE CORES (Baseada no Logo) --- */
-    --color-primary: #00263E;       /* Azul Marinho Fundo Logo */
-    --color-primary-light: #00395f; /* Azul mais claro para hover */
+    --color-primary: #464498;       /* Azul Marinho Fundo Logo */
+    --color-primary-light: #464498; /* Azul mais claro para hover */
     --color-accent: #CBA135;        /* Dourado para detalhes */
     
     --color-bg: #FFFFFF;            /* Fundo Branco */
