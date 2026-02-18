@@ -2,251 +2,313 @@
 <html lang="pt-br">
 <head>
     <meta name="description" content="Odontologia estética e clínica em Paulínia. Atendimento humanizado, lentes de contato dental, botox e saúde bucal com a Dra. Juliana Freitas.">
-<meta name="keywords" content="dentista em Paulínia, odontologia estética, lentes de contato dental, botox odontológico">
-<meta name="author" content="Dra. Juliana Freitas">
-
+    <meta name="keywords" content="dentista em Paulínia, odontologia estética, lentes de contato dental, botox odontológico">
+    <meta name="author" content="Dra. Juliana Freitas">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dra. Juliana Maria de Freitas | Cirurgiã-Dentista</title>
+    <title>Dra. Juliana Maria de Freitas | Cirurgia-Dentista</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+    <!-- Loader -->
     <div id="loader">
-    <img src="logo-juliana-freitas.png" alt="Logo" class="loader-logo">
-</div>
-
-   <header id="navbar">
-  <div class="container nav-content">
-    <img src="logo-juliana-freitas.png" class="logo-img" alt="Logo">
-
-    <nav>
-      <ul class="nav-links">
-        <li><a href="#sobre">Sobre</a></li>
-        <li><a href="#tratamentos">Tratamentos</a></li>
-        <li><a href="#consultorio">Consultório</a></li>
-        <li><a href="#contato" class="btn-nav">Agendar</a></li>
-      </ul>
-    </nav>
-
-    <div class="mobile-menu-icon">
-      <div class="bar1"></div>
-      <div class="bar2"></div>
-      <div class="bar3"></div>
+        <img src="logo-juliana-freitas.png" alt="Logo Dra. Juliana Freitas" class="loader-logo">
     </div>
-  </div>
-</header>
 
-
-
-
-    <section class="hero">
-        <div class="container hero-content reveal">
-            <span class="subtitle">Cirurgiã-Dentista</span>
-            <h1>Cuidar do seu sorriso é o meu <em>propósito.</em></h1>
-            <p>Cuidado odontológico personalizado para sua saúde, estética e bem-estar no Morumbi, em Paulínia | Particular e Amil.</p>
-            <a href="https://wa.me/19999876634" class="btn-primary">
-                <img src="https://img.icons8.com/color/48/whatsapp--v1.png" alt="WhatsApp" width="24">
-                Agende sua avaliação
+    <!-- Header -->
+    <header id="navbar">
+        <div class="container nav-content">
+            <a href="#" class="logo-link">
+                <img src="logo-juliana-freitas.png" class="logo-img" alt="Logo Dra. Juliana Freitas">
             </a>
+
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#tratamentos">Tratamentos</a></li>
+                    <li><a href="#consultorio">Consultório</a></li>
+                    <li><a href="#localizacao">Localização</a></li>
+                    <li><a href="https://wa.me/19999876634" target="_blank" class="btn-nav">Agendar</a></li>
+                </ul>
+            </nav>
+
+            <div class="mobile-menu-icon" aria-label="Menu">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
         </div>
-    </section>
+    </header>
 
-    <section id="sobre" class="section-padding bg-light">
-        <div class="container">
-            <div class="about-container">
-                
-                <div class="about-image reveal">
-                    <img src="perfil.png" alt="Dra. Juliana Freitas" class="profile-pic">
-                </div>
-
-                <div class="about-text reveal delay-200">
-                    <h2>Odontologia com propósito ✨</h2>
-                  <p class="lead">
-    <strong>Dra. Juliana Freitas - CRO/SP 151218</strong> <br>
-    Cirurgiã-dentista pela PUC-Campinas, atua como clínico geral com foco em estética e bem-estar.
-</p>
-<p class="desc">
-   Possui cursos de <strong>aperfeiçoamento em onlays, lente de contato dental e toxina botulínica (botox)</strong>, mantendo-se em constante atualização para oferecer tratamentos modernos e seguros.​
-
-</p>
-                    
-                    <div class="features-list">
-                        <div class="feature-row"><span>✓</span> Atendimento Humanizado</div>
-                        <div class="feature-row"><span>✓</span> Planejamento Personalizado</div>
-                        <div class="feature-row"><span>✓</span> Técnica e Responsabilidade</div>
-                        <div class="feature-row"><span>✓</span> Atualização Constante</div>
-                    </div>
-                </div>
-
+    <!-- Hero -->
+    <section class="hero">
+        <div class="hero-bg-overlay"></div>
+        <div class="container hero-content reveal">
+            <div class="hero-badge">Cirurgia-Dentista</div>
+            <h1>Cuidar do seu sorriso<br>é o meu <em>propósito.</em></h1>
+            <p class="hero-subtitle">Cuidado odontológico personalizado para sua saúde, estética e bem-estar no Morumbi, em Paulínia. Particular e Amil.</p>
+            <div class="hero-actions">
+                <a href="https://wa.me/19999876634" class="btn-primary" target="_blank">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                    Agende sua avaliação
+                </a>
             </div>
         </div>
     </section>
 
-    <section id="tratamentos" class="section-padding">
-     <div class="container">
-    <h2 class="text-center reveal">Tratamentos Especializados</h2>
-    <div class="cards-grid">
-        <div class="card reveal">
-            <div class="icon">🦷</div>
-            <h3>Clínico Geral</h3>
-            <p>Saúde bucal completa: limpezas (profilaxia), restaurações estéticas e onlays de cerâmica.</p>
+    <!-- Sobre -->
+    <section id="sobre" class="section-padding bg-light">
+        <div class="container">
+            <div class="about-container">
+                <div class="about-image reveal">
+                    <div class="profile-frame">
+                        <img src="perfil.png" alt="Dra. Juliana Freitas" class="profile-pic">
+                    </div>
+                </div>
+
+                <div class="about-text reveal delay-200">
+                    <div class="section-label">Sobre</div>
+                    <h2>Odontologia com propósito</h2>
+                    <p class="lead">
+                        <strong>Dra. Juliana Freitas</strong><br>
+                        Cirurgiã-dentista pela PUC-Campinas, atua como clínico geral com foco em estética e bem-estar.
+                    </p>
+                    <p class="desc">
+                        Possui cursos de aperfeiçoamento em onlays, lente de contato dental e toxina botulínica (botox), mantendo-se em constante atualização para oferecer tratamentos modernos e seguros.
+                    </p>
+
+                    <div class="features-list">
+                        <div class="feature-row">
+                            <div class="feature-check">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            </div>
+                            <span>Atendimento Humanizado</span>
+                        </div>
+                        <div class="feature-row">
+                            <div class="feature-check">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            </div>
+                            <span>Planejamento Personalizado</span>
+                        </div>
+                        <div class="feature-row">
+                            <div class="feature-check">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            </div>
+                            <span>Técnica e Responsabilidade</span>
+                        </div>
+                        <div class="feature-row">
+                            <div class="feature-check">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                            </div>
+                            <span>Atualização Constante</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        
-        <div class="card reveal delay-100">
-            <div class="icon">✨</div>
-            <h3>Estética do Sorriso</h3>
-            <p>Transformação do sorriso com Lentes de Contato Dental e clareamento clínicos & caseiros.</p>
-        </div>
-        
-        <div class="card reveal delay-200">
-            <div class="icon">💆‍♀️</div>
-            <h3>Botox Preventivo</h3>
-            <p>Aplicação de Toxina Botulínica (Botox) para fins preventivos, funcionais e estéticos.</p>
-        </div>
-        
-        <div class="card reveal delay-300">
-            <div class="icon">😴</div>
-            <h3>Placa de bruxismo</h3>
-            <p>Tratamento para bruxismo com placas personalizadas para proteção e alívio de tensões.</p>
-        </div>
-    </div>
-</div>
     </section>
 
+    <!-- Tratamentos -->
+    <section id="tratamentos" class="section-padding">
+        <div class="container">
+            <div class="section-header text-center reveal">
+                <div class="section-label">Especialidades</div>
+                <h2>Tratamentos Especializados</h2>
+            </div>
+
+            <div class="cards-grid">
+                <div class="card reveal">
+                    <div class="card-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5.5c1.5-2 4-2.5 6-.5s2.5 5 .5 8c-1.5 2.5-4.5 5-6.5 6.5-2-1.5-5-4-6.5-6.5-2-3-.5-6 .5-8s4.5-1.5 6 .5z"/></svg>
+                    </div>
+                    <h3>Clínico Geral</h3>
+                    <p>Saúde bucal completa: limpezas (profilaxia), restaurações estéticas e onlays de cerâmica.</p>
+                </div>
+
+                <div class="card reveal delay-100">
+                    <div class="card-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                    </div>
+                    <h3>Estética do Sorriso</h3>
+                    <p>Transformação do sorriso com Lentes de Contato Dental e clareamento clínicos e caseiros.</p>
+                </div>
+
+                <div class="card reveal delay-200">
+                    <div class="card-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+                    </div>
+                    <h3>Botox Preventivo</h3>
+                    <p>Aplicação de Toxina Botulínica (Botox) para fins preventivos, funcionais e estéticos.</p>
+                </div>
+
+                <div class="card reveal delay-300">
+                    <div class="card-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/><path d="M12 6v6l4 2"/></svg>
+                    </div>
+                    <h3>Placa de Bruxismo</h3>
+                    <p>Tratamento para bruxismo com placas personalizadas para proteção e alívio de tensões.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Instagram CTA -->
     <section class="insta-section section-padding">
         <div class="container">
             <div class="insta-box reveal">
                 <div class="insta-content">
-                    <span class="insta-label">Portfólio & Bastidores</span>
+                    <div class="insta-label">Portfólio e Bastidores</div>
                     <h2>Resultados reais e o dia a dia clínico</h2>
                     <p>Acompanhe no Instagram fotos dos tratamentos, antes e depois, e dicas exclusivas para o seu sorriso.</p>
-                    
+
                     <a href="https://instagram.com/dra.julianamfreitas" target="_blank" class="btn-instagram">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
                         Seguir @dra.julianamfreitas
                     </a>
                 </div>
-                
-                <div class="hero-image reveal delay-200">
-                <img src="juliana.jpeg" alt="Dra. Juliana Freitas atendendo paciente">
-            </div>
-        </div>
-    </section>
+
+                <div class="insta-image reveal delay-200">
+                    <img src="juliana.jpeg" alt="Dra. Juliana Freitas atendendo paciente">
+                </div>
             </div>
         </div>
     </section>
 
+    <!-- Consultorio / Galeria -->
     <section id="consultorio" class="section-padding bg-light">
         <div class="container">
-            <h2 class="text-center reveal">O Consultório</h2>
-            <p class="text-center mb-large reveal">Ambiente acolhedor e tecnologia de ponta para o seu conforto.</p>
-            
+            <div class="section-header text-center reveal">
+                <div class="section-label">Estrutura</div>
+                <h2>O Consultório</h2>
+                <p class="section-desc">Ambiente acolhedor e tecnologia de ponta para o seu conforto e segurança.</p>
+            </div>
+
             <div class="gallery-grid reveal">
-                <div class="gallery-item"><img src="1.jpg" alt="Consultório - Recepção"></div>
-                <div class="gallery-item"><img src="3.jpg" alt="Consultório - Sala de Atendimento"></div>
-                <div class="gallery-item"><img src="4.jpg" alt="Consultório - Detalhe Equipamento"></div>
+                <div class="gallery-item">
+                    <img src="1.jpg" alt="Consultório - Recepção">
+                </div>
+                <div class="gallery-item">
+                    <img src="3.jpg" alt="Consultório - Sala de Atendimento">
+                </div>
+                <div class="gallery-item">
+                    <img src="4.jpg" alt="Consultório - Detalhe Equipamento">
+                </div>
             </div>
         </div>
     </section>
 
-   <section class="experience section-padding text-center">
-        <div class="container reveal">
-            
-            <div class="experience-content">
+    <!-- Experiencia do Paciente -->
+    <section class="experience section-padding">
+        <div class="container">
+            <div class="experience-content reveal">
+                <div class="section-label">Experiência</div>
                 <h2>A Experiência do Paciente</h2>
                 <p class="lead-text">
-                    Desde o primeiro contato até o acompanhamento final, <br>
+                    Desde o primeiro contato até o acompanhamento final,<br>
                     tudo é pensado para o seu conforto e bem-estar.
                 </p>
-                <p class="quote">
-                    "Seu sorriso é único e merece um cuidado especial."
-                </p>
+                <blockquote class="quote">
+                    Seu sorriso é único e merece um cuidado especial.
+                </blockquote>
             </div>
 
-            <div class="spacer-large"></div>
-
-            <div class="cta-box">
+            <div class="cta-box reveal delay-200">
                 <h3>Agende sua consulta</h3>
                 <p class="cta-text">Seu sorriso merece atenção profissional.</p>
-                
-                <a href="https://wa.me/19999876634" class="btn-primary btn-large">
-                    <img src="https://img.icons8.com/color/48/whatsapp--v1.png" alt="WhatsApp" width="24">
+                <a href="https://wa.me/19999876634" class="btn-primary btn-large" target="_blank">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
                     Clique e agende pelo WhatsApp
                 </a>
             </div>
-
         </div>
     </section>
 
+    <!-- Localizacao -->
     <section id="localizacao" class="section-padding bg-light">
         <div class="container text-center reveal">
             <div class="location-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
                     <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/>
                     <circle cx="12" cy="10" r="3"/>
                 </svg>
             </div>
 
-            <h2>Como Chegar?</h2>
+            <h2>Como Chegar</h2>
             <p class="address-text">
-                Av. José Paulino, 2625 – Bloco A, Sala 54, 5º andar – Morumbi - 13140-723<br>
+                Av. José Paulino, 2625 &ndash; Bloco A, Sala 54, 5º andar &ndash; Morumbi - 13140-723<br>
                 <span class="city">Paulínia - SP</span>
             </p>
 
             <div class="location-buttons">
-    <a href="https://www.google.com/maps/search/?api=1&query=Av.+José+Paulino,+2625+Paulínia+SP" target="_blank" class="btn-outline">
-        Abrir no Google Maps
-    </a>
-    <a href="https://waze.com/ul?q=Av.+José+Paulino,+2625+Paulínia+SP" target="_blank" class="btn-outline">
-        Ir com Waze
-    </a>
-</div>
+                <a href="https://www.google.com/maps/search/?api=1&query=Av.+Jose+Paulino,+2625+Paulinia+SP" target="_blank" class="btn-outline">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+                    Google Maps
+                </a>
+                <a href="https://waze.com/ul?q=Av.+Jose+Paulino,+2625+Paulinia+SP" target="_blank" class="btn-outline">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                    Ir com Waze
+                </a>
+            </div>
 
-<div class="map-container reveal delay-200">
-    <iframe 
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3678.332304918205!2d-47.1643929239034!3d-22.753066332386415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8c1303661129b%3A0x8683e33239a531f8!2sAv.%20Jos%C3%A9%20Paulino%2C%202625%20-%20Morumbi%2C%20Paul%C3%ADnia%20-%20SP%2C%2013140-723!5e0!3m2!1spt-BR!2sbr!4v1700000000000!5m2!1spt-BR!2sbr" 
-        width="100%" 
-        height="450" 
-        style="border:0;" 
-        allowfullscreen="" 
-        loading="lazy" 
-        referrerpolicy="no-referrer-when-downgrade">
-    </iframe>
-</div>
+            <div class="map-container reveal delay-200">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3678.332304918205!2d-47.1643929239034!3d-22.753066332386415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8c1303661129b%3A0x8683e33239a531f8!2sAv.%20Jos%C3%A9%20Paulino%2C%202625%20-%20Morumbi%2C%20Paul%C3%ADnia%20-%20SP%2C%2013140-723!5e0!3m2!1spt-BR!2sbr!4v1700000000000!5m2!1spt-BR!2sbr"
+                    width="100%"
+                    height="450"
+                    style="border:0;"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
         </div>
     </section>
 
+    <!-- Footer -->
     <footer id="contato">
-        <div class="container footer-content">
-            <div class="footer-item">📍 Av. José Paulino, 2625 – Bloco A, Sala 54, 5º andar - Paulínia/SP </div>
-            <div class="footer-item">📞 (19) 99987-6634</div>
-            <div class="footer-item">📷 @dra.julianamfreitas</div>
-        </div>
-        <div class="copyright">
-            Odontologia com propósito: Cuidando do seu sorriso com responsabilidade. 
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <img src="logo-juliana-freitas.png" alt="Logo Dra. Juliana Freitas" class="footer-logo">
+                    <p class="footer-tagline">Odontologia com propósito.<br>Cuidando do seu sorriso com responsabilidade.</p>
+                </div>
+                <div class="footer-info">
+                    <div class="footer-col">
+                        <h4>Contato</h4>
+                        <p>(19) 99987-6634</p>
+                        <p>@dra.julianamfreitas</p>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Endereço</h4>
+                        <p>Av. José Paulino, 2625<br>Bloco A, Sala 54, 5º andar<br>Paulínia - SP</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="copyright">Dra. Juliana Freitas</div>
+            </div>
         </div>
     </footer>
 
-    <div id="imageModal" class="modal">
-        <span class="close-modal">&times;</span>
-        <img class="modal-content" id="img01">
+    <!-- Modal Lightbox -->
+    <div id="imageModal" class="modal" role="dialog" aria-modal="true">
+        <span class="close-modal" aria-label="Fechar">&times;</span>
+        <img class="modal-content" id="img01" alt="">
         <div id="caption"></div>
     </div>
 
-    <a href="https://wa.me/19999876634" 
-   class="whatsapp-float" 
-   target="_blank" 
-   aria-label="Agendar pelo WhatsApp">
-    <img src="https://img.icons8.com/color/48/whatsapp--v1.png" alt="WhatsApp">
-</a>
+    <!-- WhatsApp Float -->
+    <a href="https://wa.me/19999876634"
+       class="whatsapp-float"
+       target="_blank"
+       aria-label="Agendar pelo WhatsApp">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="#fff"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    </a>
 
-
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
-
-   
